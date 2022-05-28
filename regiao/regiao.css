@@ -1,0 +1,51 @@
+main{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(47, 47, 206);
+    background: linear-gradient(to right,rgb(47, 47, 206),rgb(252, 251, 251),blue,rgb(252, 251, 251),rgb(47, 47, 206));
+}
+#principal{
+    width: 80%;
+    background-color: rgb(252, 251, 251);
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top:5px;
+}
+#titulo-principal{
+    text-align: center;
+    margin-top:10px;
+    font-size:1.8em;
+}
+#titulo-natureza{
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.descrição{
+    font-size:1.2em;
+    width: 40%;
+    border: 2px dashed blue;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    align-self: center;
+}
+#titulo-lashoniro{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+.cinzento{
+    background-color: rgb(235, 235, 235);
+    padding-bottom: 25px;
+}
+#titulo-exercito{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

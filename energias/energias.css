@@ -1,0 +1,22 @@
+main{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(47, 47, 206);
+    background: linear-gradient(to right,rgb(47, 47, 206),rgb(252, 251, 251),blue,rgb(252, 251, 251),rgb(47, 47, 206));
+}
+#principal{
+    width: 80%;
+    background-color: rgb(252, 251, 251);
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top:5px;
+}
+#titulo-apresentação{
+    text-align: center;
+    margin-top:15px;
+}
+#descrição-apresentação{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+}

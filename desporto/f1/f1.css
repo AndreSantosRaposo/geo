@@ -1,0 +1,55 @@
+main{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(47, 47, 206);
+}
+#principal{
+    width: 80%;
+    background-color: rgb(252, 251, 251);
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top:5px;
+}
+#titulo-principal{
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+}
+#nome-equipa{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#equipa-descrição{
+    font-size:1.1em;
+    width: 40%;
+    margin-left: 15px;
+    border: 2px dashed blue;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+#introdução-equipa{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+#introdução-equipa>img{
+    height: 170px;
+}
+#divisão{
+    height: 2px;
+    background-color: blue;
+    width: 90%;
+    margin: 55px auto 0px auto;
+}
+.outras-titulo{
+    text-align: center;
+}
+#outras-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}

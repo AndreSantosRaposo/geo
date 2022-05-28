@@ -1,0 +1,107 @@
+main{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(47, 47, 206);
+}
+#principal{
+    width: 80%;
+    background-color: rgb(252, 251, 251);
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top:5px;
+}
+#titulo-principal{
+    text-align: center;
+    color: rgb(47, 47, 206);
+    margin: 15px 0px;
+}
+#futebol-titulo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#futebol-descrição{
+    font-size:1.1em;
+    width: 40%;
+    margin-left: 15px;
+    margin-top: 25px;
+    border: 2px dashed blue;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+#introdução-equipa{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+#introdução-equipa>img{
+    height: 170px;
+}
+#hr{
+    margin: 40px;
+    height: 2px;
+    background-color: blue;
+}
+#fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:15px;
+}
+.foto{
+    height: 300px;
+    width: 90%;
+    margin:auto;
+}
+.foto-container{
+    text-align: center;
+}
+#final-titulo{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2em;
+    font-weight: bold;
+}
+#video{
+    display: flex;
+    justify-content: center;
+}
+#separar-futsal{
+    height: 2px;
+    margin: 50px auto 0px auto;
+    background-color: black;
+    width: 90%;
+}
+#titulo-futsal{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#futsal-descrição{
+    font-size:1.1em;
+    width: 40%;
+    margin-left: 15px;
+    margin-top: 25px;
+    border: 2px dashed blue;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+#introdução-futsal{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+#introdução-futsal>img{
+    height: 170px;
+}
+#video-futsal{
+    display: flex;
+    justify-content: center;
+}
+#amigavel-titulo{
+    text-align: center;
+    margin-top: 30px;
+}

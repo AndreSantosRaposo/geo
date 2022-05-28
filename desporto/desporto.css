@@ -1,0 +1,64 @@
+#titulo-principal{
+    text-align: center;
+    margin-top: 20px;
+}
+main{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(47, 47, 206);
+}
+#principal{
+    width: 80%;
+    background-color: rgb(252, 251, 251);
+    margin: auto;
+    padding-top:1px ;
+}
+#desporto-texto{
+    font-size: 1.1em;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+}
+#modalidades-principais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    grid-column-gap:5px;
+    padding: 0px 5px;
+}
+#modalidades-principais>a{
+    text-decoration: none;
+    color: black;
+}
+#titulo-modalidades{
+    text-align: center;
+    margin-top: 30px;
+}
+.modalidade>h2{
+    text-align: center;
+}
+.imagem{
+    width: 100%;
+    height: 300px;
+}
+.imagem:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#titulo-outras{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 5px;
+}
+#outras-modalidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 25px;
+}
+.imagem-outra{
+    width: 100%;
+    height: 200px;
+}
+.modalidade-outra>h2{
+    text-align: center;
+}

@@ -34,6 +34,7 @@ main{
 #titulo-modalidades{
     text-align: center;
     margin-top: 30px;
+    color: rgb(11, 201, 11);
 }
 .modalidade>h2{
     text-align: center;
@@ -50,6 +51,7 @@ main{
     text-align: center;
     margin-top:50px;
     margin-bottom: 5px;
+    color: rgb(11, 201, 11);
 }
 #outras-modalidades{
     display: grid;

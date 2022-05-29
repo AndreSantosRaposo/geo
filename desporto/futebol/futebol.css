@@ -15,11 +15,13 @@ main{
     text-align: center;
     color: rgb(47, 47, 206);
     margin: 15px 0px;
+    
 }
 #futebol-titulo{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: rgb(11, 201, 11);
 }
 #futebol-descrição{
     font-size:1.1em;
@@ -58,11 +60,16 @@ main{
 .foto-container{
     text-align: center;
 }
+.foto-container>h2{
+    text-align: center;
+    color: rgb(11, 201, 11);
+}
 #final-titulo{
     text-align: center;
     margin-top: 40px;
     font-size: 2em;
     font-weight: bold;
+    color: rgb(11, 201, 11);
 }
 #video{
     display: flex;
@@ -78,6 +85,7 @@ main{
     margin-top: 25px;
     text-align: center;
     margin-bottom: 15px;
+    color: rgb(11, 201, 11);
 }
 #futsal-descrição{
     font-size:1.1em;
@@ -105,4 +113,5 @@ main{
 #amigavel-titulo{
     text-align: center;
     margin-top: 30px;
+    color: rgb(11, 201, 11);
 }

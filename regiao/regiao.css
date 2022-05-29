@@ -15,11 +15,13 @@ main{
     text-align: center;
     margin-top:10px;
     font-size:1.8em;
+    
 }
 #titulo-natureza{
     text-align: center;
     margin-top:15px;
     margin-bottom:20px;
+    color: rgb(11, 201, 11);
 }
 .container{
     display: flex;
@@ -39,6 +41,7 @@ main{
     padding-bottom: 10px;
     text-align: center;
     padding-top: 15px;
+    color: rgb(11, 201, 11);
 }
 .cinzento{
     background-color: rgb(235, 235, 235);
@@ -48,6 +51,7 @@ main{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    color: rgb(11, 201, 11);
 }
 #exercito{
     font-size:1em;

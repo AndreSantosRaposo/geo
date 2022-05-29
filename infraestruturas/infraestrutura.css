@@ -1,0 +1,96 @@
+main{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(47, 47, 206);
+    background: linear-gradient(to right,rgb(47, 47, 206),rgb(252, 251, 251),blue,rgb(252, 251, 251),rgb(47, 47, 206));
+}
+#principal{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top:5px;
+}
+#titulo-principal{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#descrição{
+    font-size:1.2em;
+    width: 70%;
+    border: 2px dashed blue;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+}
+li>img{
+    height: 50px;
+}
+.classes{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.cinzento{
+    background-color: rgb(245, 244, 244);
+}
+.classes li{
+    font-size:1.1em;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+li>p{
+    margin-left: 10px;
+}
+ol{
+    list-style: none;
+}
+h2{
+    color: rgb(11, 201, 11);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.55em;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.foto{
+    height: 200px;
+}
+.fotos{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+#guarda-florestal{
+    margin-left: 35px
+}
+#guarda-florestal-texto{
+    margin-left:20px;
+}
+#publico-fotos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#publico-fotos>img{
+    padding-top: 20px;
+    height: 170px;
+}
+#outras-fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+#outras-fotos>div{
+    display: flex;
+    justify-content: center;
+}
+.primeiros{
+    margin-bottom: 20px;
+}
+#outros>ol{
+    margin-bottom: 30px;
+}

@@ -20,6 +20,7 @@ main{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 20px;
+    color: rgb(11, 201, 11);
 }
 #equipa-descrição{
     font-size:1.1em;
@@ -47,6 +48,7 @@ main{
 }
 .outras-titulo{
     text-align: center;
+    color: rgb(11, 201, 11);
 }
 #outras-container{
     margin-top: 30px;

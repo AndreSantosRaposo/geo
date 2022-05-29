@@ -1,0 +1,78 @@
+#titulo-principal{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(11, 201, 11);
+}
+main{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(47, 47, 206);
+    background: linear-gradient(to right,rgb(47, 47, 206),rgb(252, 251, 251),blue,rgb(252, 251, 251),rgb(47, 47, 206));
+}
+#principal{
+    width: 80%;
+    background-color: rgb(252, 251, 251);
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top:5px;
+}
+#imagem-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#video-container{
+    text-align: center;
+    margin-top: 45px;
+}
+.descrição{
+    font-size:1.2em;
+    width: 40%;
+    border: 2px dashed blue;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    align-self: center;
+}
+.apresentações{
+    display: flex;
+    justify-content: space-around;
+    margin-top:35px
+}
+img{
+    height: 300px;
+}
+#turismo-titulo{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(11, 201, 11)
+}
+#turismo-apresentação>p{
+    text-align: center;
+    width: 80%;
+    margin:15px auto;
+}
+#image-container{
+    display: flex;
+    justify-content: center;
+}
+#transportes-titulo{
+    text-align: center;
+    color: rgb(11, 201, 11);
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#transportes-apresentação>p{
+    margin: auto;
+    margin-bottom: 15px;
+    width: 70%;
+}
+#imagens3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+#imagens3>img{
+    height: 200px;
+}

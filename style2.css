@@ -34,10 +34,39 @@ main{
     text-align: center;
     align-self: center;
 }
+#primeira-merda{
+    margin: auto;
+}
 .apresentações{
     display: flex;
     justify-content: space-around;
     margin-top:35px
+}
+#apresentação-ilha{
+    display: block;
+    margin-bottom: 60px;
+}
+#apresentação-ilha>p{
+    width: 70%;
+    margin-bottom: 20px;
+}
+#apresentação-ilha img{
+    width: 40%;
+}
+#imagens1-container :hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+#imagens1-container{
+    display: flex;
+    justify-content: space-around;
+}
+#transportes-apresentação img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+#apresentação-ilha2 img{
+    height: 250px;
 }
 img{
     height: 300px;
